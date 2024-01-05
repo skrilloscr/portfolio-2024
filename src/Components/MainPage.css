@@ -1,0 +1,126 @@
+/* Add general styles for all screen sizes */
+.body {
+  font-size: 16px;
+  
+
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .darklink {
+    flex-direction: column; /* Stack the navigation links vertically on smaller screens */
+    text-align: center;
+  }
+
+  .darklink a {
+    margin: 0.5rem 0; /* Add spacing between navigation links on smaller screens */
+  }
+
+  .nav-links-container {
+    text-align: center;
+  }
+
+  .details-container {
+    background-size: cover; /* Make sure the background image covers the container */
+  }
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 769px) {
+  .darklink {
+    gap: 2rem;
+  }
+
+  .nav-links-container {
+    text-align: left;
+  }
+}
+
+/* Your existing styles remain unchanged below this point */
+
+.dark-mode {
+  background: gray;
+  background-color: black;
+  background-size: cover;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+a {
+  color: gray;
+}
+
+nav,
+.darklink {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+.darklink a {
+  color: white;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+.darklink a:hover {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+.darkP {
+  color: white;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.details-container {
+  background-color: rgb(221, 217, 217);
+  background-image: url(../assets/bggif2.gif);
+}
+
+
+
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .darklink {
+    flex-direction: column; /* Stack the navigation links vertically on smaller screens */
+    text-align: center;
+  }
+
+  .darklink a {
+    margin: 0.5rem 0; /* Add spacing between navigation links on smaller screens */
+  }
+
+  .nav-links-container {
+    text-align: center;
+  }
+
+  .details-container {
+    background-size: cover; /* Make sure the background image covers the container */
+  }
+
+  /* Adjust the top margin or padding for the About section on smaller screens */
+  #about {
+    margin-top: 1rem; /* You can adjust this value as needed */
+  }
+}
