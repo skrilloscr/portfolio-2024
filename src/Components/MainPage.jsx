@@ -13,7 +13,7 @@ import projectFour from '../assets/quiz mania.png'
 import projectFive from '../assets/project-5.png'
 import projectSix from '../assets/milma.png'
 import email from '../assets/email.png'
-import cv from '../assets/midhun mearn cv Angular.pdf'
+import cv from '../assets/mearn cv 2024-jan.pdf'
 import whatsap from '../assets/pngwing.com.png'
 import signature from '../assets/signature.png'
 
@@ -106,7 +106,6 @@ function MainPage() {
               src={github}
               alt="My Github profile"
               class="icon"
-              onclick=""
               
             />
           </a>
@@ -148,7 +147,7 @@ function MainPage() {
           </div>
           <div class="text-container">
             <p style={{color:'black'}}>
-            I Am A Highly Motivated <a style={{color:'red'}}>MEARN</a> Stack Developer With Over Six Months Of Experience. I Have Strong Creative And Comprehensive Coding Skills. Really Good At Communication And Project Management Skills. 
+            I Am A Highly Motivated <a href='https://www.geeksforgeeks.org/mern-stack/' target='_blank' style={{color:'red'}}>MEARN</a> Stack Developer With Over Six Months Of Experience. I Have Strong Creative And Comprehensive Coding Skills. Really Good At Communication And Project Management Skills. 
             </p>
           </div>
         </div>
@@ -360,14 +359,14 @@ function MainPage() {
             <h2 class="experience-sub-title project-title">T-REX Online Store</h2>
             <div class="btn-container">
               
-              <a href='https://github.com/skrilloscr/Tee-Rex-onlineStore' target='_blank'>
+              <a href='https://github.com/skrilloscr/Tee-Rex-onlineStore' target='_blank' rel="noreferrer">
                 <button
                   class="btn btn-color-dark project-btn">
                   Github
                 </button>
               </a>
 
-              <a href='https://tee-rex-online-store-mi-dhu-n.netlify.app/' target='_blank'>
+              <a href='https://tee-rex-online-store-mi-dhu-n.netlify.app/' target='_blank' rel="noreferrer">
                 <button
                   class="btn btn-color-dark project-btn">
                   Live Demo
@@ -387,14 +386,14 @@ function MainPage() {
             <h2 class="experience-sub-title project-title">Dino Game</h2>
             <div class="btn-container">
 
-              <a href='https://github.com/skrilloscr/Dino-game-react-app' target='_blank'>
+              <a href='https://github.com/skrilloscr/Dino-game-react-app' target='_blank' rel="noreferrer">
                 <button
                   class="btn btn-color-dark project-btn">
                   Github
                 </button>
               </a>
 
-              <a href='https://dino-run-react-app.netlify.app/' target='_blank'>
+              <a href='https://dino-run-react-app.netlify.app/' target='_blank' rel="noreferrer">
                 <button
                   class="btn btn-color-dark project-btn">
                   Live Demo
@@ -414,14 +413,14 @@ function MainPage() {
             <h2 class="experience-sub-title project-title">Media Player</h2>
             <div class="btn-container">
 
-              <a href='https://github.com/skrilloscr/Video-Player-React-App' target='_blank'>
+              <a href='https://github.com/skrilloscr/Video-Player-React-App' target='_blank' rel="noreferrer">
                 <button
                   class="btn btn-color-dark project-btn">
                   Github
                 </button>
               </a>
 
-              <a href='https://videoappuploder-prithwi.netlify.app/' target='_blank'>
+              <a href='https://videoappuploder-prithwi.netlify.app/' target='_blank' rel="noreferrer">
                 <button
                   class="btn btn-color-dark project-btn">
                   Live Demo
@@ -445,14 +444,14 @@ function MainPage() {
             <h2 class="experience-sub-title project-title"> Space Quiz Mania</h2>
             <div class="btn-container">
 
-              <a href='https://github.com/skrilloscr/quiz-react-app' target='_blank'>
+              <a href='https://github.com/skrilloscr/quiz-react-app' target='_blank' rel="noreferrer">
                 <button
                   class="btn btn-color-dark project-btn">
                   Github
                 </button>
               </a>
 
-              <a href='https://space-quiz-react-app-mi-dhu.netlify.app/' target='_blank'>
+              <a href='https://space-quiz-react-app-mi-dhu.netlify.app/' target='_blank' rel="noreferrer">
                 <button
                   class="btn btn-color-dark project-btn">
                   Live Demo
@@ -472,14 +471,14 @@ function MainPage() {
             <h2 class="experience-sub-title project-title">Netflix Clone</h2>
             <div class="btn-container">
 
-              <a href='https://github.com/skrilloscr/netflix-clone-react-app' target='_blank'>
+              <a href='https://github.com/skrilloscr/netflix-clone-react-app' target='_blank' rel="noreferrer">
                 <button
                   class="btn btn-color-dark project-btn">
                   Github
                 </button>
               </a>
 
-              <a href='https://netflix-clone-react-app-m-idh-u.netlify.app/' target='_blank'>
+              <a href='https://netflix-clone-react-app-m-idh-u.netlify.app/' target='_blank' rel="noreferrer">
                 <button
                   class="btn btn-color-dark project-btn">
                   Live Demo
@@ -502,14 +501,14 @@ function MainPage() {
             <br />
             <div class="btn-container">
 
-              <a href='https://github.com/skrilloscr/Milma-Shoppee-React-App' target='_blank'>
+              <a href='https://github.com/skrilloscr/Milma-Shoppee-React-App' target='_blank' rel="noreferrer">
                 <button
                   class="btn btn-color-dark project-btn">
                   Github
                 </button>
               </a>
 
-              <a href='https://milma-shoppee-delivery-react-app.netlify.app/' target='_blank'>
+              <a href='https://milma-shoppee-react-app.vercel.app/' target='_blank' rel="noreferrer">
                 <button
                   class="btn btn-color-dark project-btn">
                   Live Demo
