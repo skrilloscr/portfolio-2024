@@ -13,7 +13,7 @@ import projectFour from '../assets/quiz mania.png'
 import projectFive from '../assets/project-5.png'
 import projectSix from '../assets/milma.png'
 import email from '../assets/email.png'
-import cv from '../assets/mearn cv 2024-jan.pdf'
+import cv from '../assets/midhun cv 24-jan.pdf'
 import whatsap from '../assets/pngwing.com.png'
 import signature from '../assets/signature.png'
 
